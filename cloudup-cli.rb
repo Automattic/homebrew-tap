@@ -13,7 +13,6 @@ class CloudupCli < Formula
   end
 
   test do
-    system "false"
-    system "up -v"
+    system "up -version"
   end
 end
