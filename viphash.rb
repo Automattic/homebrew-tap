@@ -2,8 +2,8 @@
 class Viphash < Formula
   desc "A tool for managing a database of hashes and statuses of files for review purposes"
   homepage "https://github.com/Automattic/vip-hash/"
-  url "https://github.com/Automattic/vip-hash/releases/download/6.1/viphash.phar"
-  sha256 "cef6976759eb74f52d2c511aff4e841849f32ada9b2c2fdf293f837966e232ff"
+  url "https://github.com/Automattic/vip-hash/releases/download/6.3/viphash.phar"
+  sha256 "e545567473698df75f834d018939cec0894c102df35fc98e53aded8a73e3798c"
 
   def phar_file
     class_name = self.class.name.split("::").last
