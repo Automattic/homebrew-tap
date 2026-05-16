@@ -1,30 +1,30 @@
 class Forkpress < Formula
   desc "Single-binary WordPress branching environment"
   homepage "https://github.com/Automattic/forkpress"
-  version "0.1.27"
+  version "0.1.28"
   license "GPL-2.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/Automattic/forkpress/releases/download/v0.1.27/forkpress-aarch64-apple-darwin.tar.gz"
-      sha256 "901d4e84678592d487c8c58a940dff40c76523edd47075ea6ccd4dbf02f90c0d"
+      url "https://github.com/Automattic/forkpress/releases/download/v0.1.28/forkpress-aarch64-apple-darwin.tar.gz"
+      sha256 "c38fd37310c231b96a3dedea648eaeec6549bda74722cfd868127eb6e80c8e17"
     end
 
     on_intel do
-      url "https://github.com/Automattic/forkpress/releases/download/v0.1.27/forkpress-x86_64-apple-darwin.tar.gz"
-      sha256 "fa2d2676e4f8bcf81f3329d9d1ca83b33dfd1d3c4e39f3702210a564f9ce0998"
+      url "https://github.com/Automattic/forkpress/releases/download/v0.1.28/forkpress-x86_64-apple-darwin.tar.gz"
+      sha256 "8593d3341ceba36b893591763205178a06ef7547cc41493f28256977997dae5f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Automattic/forkpress/releases/download/v0.1.27/forkpress-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "53fcf6029b037abee30614b5d039b2bed7f87b8b819ce6366faa4a75ae660428"
+      url "https://github.com/Automattic/forkpress/releases/download/v0.1.28/forkpress-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "45f3a5ed8f906e8692fb05a63719c4064348dcb7cb9b895c2197a38089461457"
     end
 
     on_intel do
-      url "https://github.com/Automattic/forkpress/releases/download/v0.1.27/forkpress-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "cf6446d1829f29eae4c380bcb7f6bdf5d2602610db9b086e9508989a8a1b801e"
+      url "https://github.com/Automattic/forkpress/releases/download/v0.1.28/forkpress-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4cd92d31cabd59fc9be1d35d35eec3f9bc5452454d8ca0ba7f1620a5a00cc588"
     end
   end
 
